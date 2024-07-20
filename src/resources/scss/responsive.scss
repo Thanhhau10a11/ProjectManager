@@ -115,15 +115,39 @@
     }
 
     //end card item
+    .about-us-container { 
+        flex-direction: column;
+    }
+    .about-us-info {
+        padding: 0 0 20px 0 !important;
+    }
+    //box
+    .box-container {
+        grid-template-columns: 1fr !important;
+    }
+    //about-tea
+    .about-tea-container {
+        flex-direction: column;
+    }
+    .about-tea-container .col-1 {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .about-tea-container .col-2 {
+        margin: 0;
+        padding: 0;
+    }
 
+    //footer
+    .footer-container .row-1 .col-3 {
+
+    }
 }
 
 //tablet
 
 @media only screen and (max-width: 1197px) {
-
-
-
     .container-cate {
         height: 100px;
     }
